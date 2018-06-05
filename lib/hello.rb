@@ -5,8 +5,9 @@ while i < array.length
   i = i+ 1
 end
 end
-hello_t([]"Tim","Tom", "Jim"]) do |name|
+hello_t(["Tim","Tom", "Jim"]) do |name|
   idf name.start_with?("T")
   puts "Hi, #{name}"
+end
 end
 # call your method here!
